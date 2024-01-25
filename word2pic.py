@@ -5,7 +5,7 @@ from PIL import ImageDraw
 
 
 def word2pic(txt_path='./test.txt', ttf_path="./src/test.TTF", save_path="./result/", size=4):
-    font = ImageFont.truetype(ttf_path, 25)  # 设置字体
+    font = ImageFont.truetype(ttf_path, 100)  # 设置字体
     f = open(txt_path, 'r', encoding='utf-8')  # 设置文档
     string = f.read()
     f.close()
@@ -15,14 +15,14 @@ def word2pic(txt_path='./test.txt', ttf_path="./src/test.TTF", save_path="./resu
     while flag < lenstr:
         img = Image.open('./src/background.png')
         draw = ImageDraw.Draw(img)
-        for i in range(28):
-            for j in range(38):
+        for i in range(20):
+            for j in range(28):
                 if flag >= lenstr:
                     break
                 if string[flag] == '\n':
                     flag += 1
                     break
-                draw.text((70 + random.random() * size / 2 + 25 * j, 83 + random.random() * size + i * 48),
+                draw.text((200 + random.random() * size / 2 + 66 * j, 500 + random.random() * size + i * 120),
                           string[flag], (0, 0, 0),
                           font=font)
                 flag += 1
