@@ -8,4 +8,4 @@
 3.设置word2pic.py参数
 
 # 结果展示
-![img](https://github.com/SAI-24-me/neverWriteByHand/blob/master/img/test.jpg)
+![img](https://github.com/SAI-24-me/neverWriteByHand/blob/master/img/1.png)
