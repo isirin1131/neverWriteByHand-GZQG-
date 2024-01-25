@@ -8,5 +8,4 @@
 3.设置word2pic.py参数
 
 # 结果展示
-![img](https://github.com/isirin1131/neverWriteByHand-GZQG-/master/img/1.png)
-img/1.png
+![img](img/1.png)
